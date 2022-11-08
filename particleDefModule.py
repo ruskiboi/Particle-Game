@@ -1,9 +1,9 @@
-#The strength attribute is the yeild strength in psi, divided by 100
+#The strength attribute is the tensile strength in psi, divided by 1000
 sand_particle = {
     "particleName": "sand",
     "particle_ID": "0000",
     "density": 1.63,
-    "strength": 0.25,
+    "strength": 0.000129084,
     "meltingPointCelsius": 1700.00,
     "stateOfMatter": "solid",
     "canBurn": False,
@@ -16,8 +16,21 @@ iron_particle = {
     "particleName": "sand",
     "particle_ID": "0001",
     "density": 7.87,
-    "strength": 72.5,
+    "strength": 78.3,
     "meltingPointCelsius": 1538.00,
+    "stateOfMatter": "solid",
+    "canBurn": False,
+    "canMelt": True,
+    "canFloat": False,
+    "isLooseParticle": False
+}
+
+brick_particle = {
+    "particleName": "brick",
+    "particle_ID": "0002",
+    "density": 2.0,
+    "strength": 78.3,
+    "meltingPointCelsius": 1630.00,
     "stateOfMatter": "solid",
     "canBurn": False,
     "canMelt": True,
