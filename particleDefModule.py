@@ -29,7 +29,7 @@ brick_particle = {
     "particleName": "brick",
     "particle_ID": "0002",
     "density": 2.0,
-    "strength": 78.3,
+    "strength": 359.6936,
     "meltingPointCelsius": 1630.00,
     "stateOfMatter": "solid",
     "canBurn": False,
